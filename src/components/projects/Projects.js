@@ -20,16 +20,17 @@ const Projects = () => {
           title="Portfolio  Using MERN STACK"
           des="This is the Dynamic Portfolio Website using React-Js. This website is Hosted on Vercel.com"
           src={projectOne}
-          gitLink="#"
+          gitLink=""
           globLink="#"
         />
         <ProjectsCard
-          title="Paytm Website Clone"
-          des="This is the Static Website Created Using the Html,Css,Bootstrap.This Website is has all the features as the original one.s"
-          src={projectTwo}
-          gitLink="#"
-          globLink="#"
+          title="Converges Website"
+          des="This is the Website we build for an event of our institute called Converges. This website has Payment gateway integration.This Website is Hosted lived on our college website."
+          src={projectSeven}
+          gitLink="https://github.com/VedantGujarathi/Converges2k23"
+          globLink="https://www.rcpit.ac.in/converges/"  
         />
+        
         <ProjectsCard
           title="Saksham Charitable Trust Website"
           des="This Website is created using a React-Js. This Website has Payment Gateway integration using RozarPay API. This Website is Hosted on Github.com"
@@ -45,6 +46,27 @@ const Projects = () => {
           globLink="#"
         />
         <ProjectsCard
+          title="ToDo List Webapp"
+          des="In this Project I have Created a ToDO List Webapp. This is build uisng Html,Css,JavaScript. This is the Static Website and No backend is there for the given Project."
+          src={projectNine}
+          gitLink="https://github.com/VedantGujarathi/ToDoList"
+          globLink="https://to-do-list-teal-xi.vercel.app/"
+        />
+        <ProjectsCard
+          title="Graphical Password Authentication"
+          des="This is our Software Solution for the problem given to us in the samrt India Hackathon. The Project is Build on Java Technology. This is a Desktop Application so no Hosting is there."
+          src={projectEight}
+          gitLink="https://github.com/VedantGujarathi/Graphical-Password-Authentication"
+          globLink="#"
+        />
+        <ProjectsCard
+          title="Steganography Gui Using Tkinter Python."
+          des="This is a Gui Application Build using Tkinter. In this We have Demonstrated the steghide functionality. This is also Converted from .py to .exe you can check it out Github. No Global Hosting Link is there."
+          src={projectTwo}
+          gitLink="https://github.com/VedantGujarathi/Steganography-Gui-Using-Tkinter"
+          globLink="#"
+        />
+        <ProjectsCard
           title="Student Study Hours Prediction Using Machine learning and Streamlit"
           des="This is the machine learning model which predicts the Student Study Hours using the given data. The Model is deplyed using Streamlit Framework of Python. and Hosted on the Stramlit Cloud."
           src={projectFive}
@@ -57,28 +79,7 @@ const Projects = () => {
           src={projectSix}
           gitLink="https://github.com/VedantGujarathi/Insurance_Price_Prediction"
           globLink="https://vedantgujarathi-insurance-price-predicti-insurance-model-v6l39f.streamlit.app/"
-        />
-        <ProjectsCard
-          title="Converges Website"
-          des="This is the Website we build for an event of our institute called Converges. This website has Payment gateway integration.This Website is Hosted lived on our college website."
-          src={projectSeven}
-          gitLink="#"
-          globLink="https://www.rcpit.ac.in/converges/"
-        />
-        <ProjectsCard
-          title="Graphical Password Authentication"
-          des="This is our Software Solution for the problem given to us in the samrt India Hackathon. The Project is Build on Java Technology. This is a Desktop Application so no Hosting is there."
-          src={projectEight}
-          gitLink="#"
-          globLink="#"
-        />
-        <ProjectsCard
-          title="ToDo List Webapp"
-          des="In this Project I have Created a ToDO List Webapp. This is build uisng Html,Css,JavaScript. This is the Static Website and No backend is there for the given Project."
-          src={projectNine}
-          gitLink="#"
-          globLink="#"
-        />
+        /> 
       </div>
     </section>
   );

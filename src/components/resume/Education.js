@@ -34,12 +34,12 @@ const Education = () => {
             result="8.05/10"
             des="Currently, I Have Been Enrolled In The Program Called Btech In Computer. Program Duration Is Of 4 Years. Currently,I'm In The Third Year Of This Program, And Required 1 Years More To Complete It. In The August Of 2024 It Will Get Completed."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="M.Tech - Computer"
             subTitle="2025-2027"
             result="-"
             des="Yet to Start pursuing degree."
-          />
+          /> */}
         </div>
       </div>
       {/* part Two */}

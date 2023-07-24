@@ -26,11 +26,8 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-<<<<<<< HEAD
           I like to build the Web-apps as well as Machine learning Models and also to integrate both of them. Beside that I also Devloped the Full stack Web apps using Mern Stack.
-=======
           I love to Build the Web apps and also to Build the machine Learning Model and Deploy them.
->>>>>>> 3f77954667827274c8211c2d0d795498fe40379e
         </p>
       </div>
      {/* Media */}
