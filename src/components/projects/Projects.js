@@ -53,6 +53,13 @@ const Projects = () => {
           globLink="https://to-do-list-teal-xi.vercel.app/"
         />
         <ProjectsCard
+          title="NewsX Android App Using React-Native"
+          des="In this Project I have Created a NEWSX. This is build by using React-Native. This is the Android Application where I have used the NEWSDATA.io Api for news fetching. and No backend is there for the given Project."
+          src={projectNine}
+          gitLink="https://github.com/VedantGujarathi/ToDoList"
+          globLink="https://to-do-list-teal-xi.vercel.app/"
+        />
+        <ProjectsCard
           title="Graphical Password Authentication"
           des="This is our Software Solution for the problem given to us in the samrt India Hackathon. The Project is Build on Java Technology. This is a Desktop Application so no Hosting is there."
           src={projectEight}
