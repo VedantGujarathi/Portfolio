@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix,projectSeven,projectEight,projectNine } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix,projectSeven,projectEight,projectNine, projectTen } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -55,7 +55,7 @@ const Projects = () => {
         <ProjectsCard
           title="NewsX Android App Using React-Native"
           des="In this Project I have Created a NEWSX. This is build by using React-Native. This is the Android Application where I have used the NEWSDATA.io Api for news fetching. and No backend is there for the given Project."
-          src={projectNine}
+          src={projectTen}
           gitLink="https://github.com/VedantGujarathi/ToDoList"
           globLink="https://to-do-list-teal-xi.vercel.app/"
         />

@@ -9,11 +9,12 @@ import projectSix from "./images/projects/projectSix.png";
 import projectSeven from "./images/projects/projectSeven.png";
 import projectEight from "./images/projects/projectEight.jpeg";
 import projectNine from "./images/projects/projectNine.png";
+import projectTen from "./images/projects/projectTen.png";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import resumepdf from "./Resumepdf.pdf";
+import Vedant_Gujarathi from "./Vedant_Gujarathi.pdf";
 
 export {
   logo,
@@ -31,6 +32,7 @@ export {
   testimonialTwo,
   quote,
   contactImg,
-  resumepdf,
+  Vedant_Gujarathi,
+  projectTen
 
 };
