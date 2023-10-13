@@ -56,8 +56,8 @@ const Projects = () => {
           title="NewsX Android App Using React-Native"
           des="In this Project I have Created a NEWSX. This is build by using React-Native. This is the Android Application where I have used the NEWSDATA.io Api for news fetching. and No backend is there for the given Project."
           src={projectTen}
-          gitLink="https://github.com/VedantGujarathi/ToDoList"
-          globLink="https://to-do-list-teal-xi.vercel.app/"
+          gitLink="https://github.com/VedantGujarathi/news"
+          globLink="https://expo.dev/artifacts/eas/pHpX8bzkJ78iGah4irsU6o.apk"
         />
         <ProjectsCard
           title="Graphical Password Authentication"
